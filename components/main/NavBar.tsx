@@ -24,7 +24,7 @@ const NavBar = () => {
             <a href="#sobremim" className="cursor-pointer">
               Sobre mim!
             </a>
-            <a href="#skills" className="cursor-pointer">
+            <a href="#habilidades" className="cursor-pointer">
               Habilidades e linguagens
             </a>
             <a href="#projetos" className="cursor-pointer">
@@ -34,13 +34,17 @@ const NavBar = () => {
         </div>
         <div className="flex flex-row gap-5">
           {Socials.map((social) => (
-            <Image
-              src={social.src}
-              alt={social.name}
-              key={social.name}
-              width={24}
-              height={24}
-            />
+            <a href={social.link} target="_blank">
+              {" "}
+              <Image
+                className="cursor-pointer"
+                src={social.src}
+                alt={social.name}
+                key={social.name}
+                width={24}
+                height={24}
+              />{" "}
+            </a>
           ))}
         </div>
       </div>

@@ -82,15 +82,13 @@ export const Skill_data = [
 export const Socials = [
   {
     name: "Discord",
-    src: "/instagram.svg",
-  },
-  {
-    name: "Facebook",
-    src: "/facebook.svg",
-  },
-  {
-    name: "Instagram",
     src: "/discord.svg",
+    link: "https://discord.gg/tZePVSPE",
+  },
+  {
+    name: "LinkedIn",
+    src: "/linkedin_logo.svg",
+    link: "https://www.linkedin.com/in/breno-carvalho-8711952b9/",
   },
 ];
 

@@ -15,7 +15,10 @@ const HeroContent = () => {
       animate="visible"
       className="flex-row items-center justify-center flex px-20 mt-40 w-full z-[20]"
     >
-      <div className="h-full w-full flex flex-col gap-5 justify-center m-auto text-start">
+      <div
+        className="h-full w-full flex flex-col gap-5 justify-center m-auto text-start"
+        id="sobremim"
+      >
         <motion.div
           className="Welcome-box py-[9px] px-[7px] border-[#7042f88b] opacity-[0.9]"
           variants={slideInFromTop}

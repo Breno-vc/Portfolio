@@ -15,14 +15,18 @@ const Footer = () => {
         <div className="w-full h-full flex flex-row items-center justify-around flex-wrap">
           <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
             <div className="font-bold text-[17px] ">Comunidade</div>
-            <p className="flex flex-row items-center my-[15px] cursor-pointer">
-              <RxGithubLogo />
-              <span className="text-[15px] ml-[6px]">GitHub</span>
-            </p>
-            <p className="flex flex-row items-center my-[15px] cursor-pointer">
-              <RxDiscordLogo />
-              <span className="text-[15px] ml-[6px]">Discord</span>
-            </p>
+            <a href="https://github.com/Breno-vc">
+              <p className="flex flex-row items-center my-[15px] cursor-pointer">
+                <RxGithubLogo />
+                <span className="text-[15px] ml-[6px] z-[99]">GitHub</span>
+              </p>
+            </a>
+            <a href="">
+              <p className="flex flex-row items-center my-[15px] cursor-pointer">
+                <RxDiscordLogo />
+                <span className="text-[15px] ml-[6px] z-[99]">Discord</span>
+              </p>
+            </a>
             {/* <p className="flex flex-row items-center my-[15px] cursor-pointer">
               <span className="text-[15px] ml-[6px]">Linked In</span>
             </p> */}
