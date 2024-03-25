@@ -15,13 +15,13 @@ const Footer = () => {
         <div className="w-full h-full flex flex-row items-center justify-around flex-wrap">
           <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
             <div className="font-bold text-[17px] ">Comunidade</div>
-            <a href="https://github.com/Breno-vc">
+            <a href="https://github.com/Breno-vc" target="_blank">
               <p className="flex flex-row items-center my-[15px] cursor-pointer">
                 <RxGithubLogo />
                 <span className="text-[15px] ml-[6px] z-[99]">GitHub</span>
               </p>
             </a>
-            <a href="">
+            <a href="https://discord.gg/tZePVSPE" target="_blank">
               <p className="flex flex-row items-center my-[15px] cursor-pointer">
                 <RxDiscordLogo />
                 <span className="text-[15px] ml-[6px] z-[99]">Discord</span>
